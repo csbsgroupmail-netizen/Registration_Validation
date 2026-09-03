@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationform" class="form">
+            <h2>Create Account</h2>
+            <!-- Username -->
+            <div class="form-control">
+                <label for="username">Username</label> <br>
+                <input type="text" id="username" placeholder="Enter username" autocomplete="off"> <br>
+                <small>Error Message</small> <br>
+            </div>
+            <!-- Email -->
+             <div class="form-control">
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" placeholder="Enter Email" autocomplete="off"> <br>
+                <small>Error Message</small> <br>
+             </div>
+             <!-- Password -->
+              <div class="form-control">
+                <label for="password">Password</label> <br>
+                <input type="password" id="password" placeholder="Enter Password" maxlength="10" required> <br>
+                <small>Error Message</small> <br>
+              </div>
+              <!-- Confirm Password -->
+               <div class="form-control">
+                <label for="repassword">Confirm Password</label> <br>
+                <input type="password" id="repassword" placeholder="Enter Password" maxlength="10" required> <br>
+               </div>
+               <br>
+               <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
